@@ -1,0 +1,11 @@
+framework module SampleSDKkawamura2 {
+  umbrella header "SampleSDKkawamura2.h"
+  export *
+
+  module * { export * }
+}
+
+module SampleSDKkawamura2.Swift {
+  header "SampleSDKkawamura2-Swift.h"
+  requires objc
+}
